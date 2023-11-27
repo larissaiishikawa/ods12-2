@@ -10,8 +10,8 @@
 
 ##### Projeto criado baseado nos Objetivos de Desenvolvimento Sustentável (ODS) para o curso de Programação Front-End do segundo período.
 
-Clique [aqui](https://larissaiishikawa.github.io/ods-12/) para acessar nosso GitHub Pages!
-E clique [aqui](https://github.com/larissaiishikawa/ods-12) para acessar nosso GitHub Repository ;)
+Clique [aqui](https://larissaiishikawa.github.io/ods12-2/) para acessar nosso GitHub Pages!
+E clique [aqui](https://github.com/larissaiishikawa/ods12-2) para acessar nosso GitHub Repository ;)
 
 ## Nome do grupo: ODS 12
 
