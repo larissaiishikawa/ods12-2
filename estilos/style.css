@@ -1,0 +1,363 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bf8c2e;
+}
+
+header {
+    background-color: #bf8c2e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para a logo */
+.logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+/* Estilos para a seção home */
+#home {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    min-height: 600px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.conteudo-home {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+
+.imagem-home {
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.home h1 {
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.home h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#saibamais {
+    background-color: #fff;
+    width: 90px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#saibamais a {
+    color: #bf8c2e;
+}
+
+/* Efeito vazado com risco em cima */
+h4::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.linha {
+    width: 50px;
+    height: 3px;
+    background-color: #ffffff;
+    /* Cor da linha */
+}
+
+/* Estilos para a seção ODS12 */
+#ODS12 {
+    background-color: #ffffff;
+    min-height: 550px;
+    text-align: justify;
+}
+
+.ODS12-content {
+    padding-top: 70px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para a seção de ODS*/
+#ODS {
+    background-color: #bf8c2e;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.ODS12-content h2 {
+    color: #282828 !important;
+    font-size: 36px;
+}
+
+.ODS-imagem img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+.ODS-texto p {
+    color: #fff;
+}
+
+/* Estilos para a seção "Sobre" */
+#sobre {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#sobre a {
+    color: #bf8c2e;
+    padding: 0;
+    background-color: #fff;
+}
+
+.sobre-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+/* Estilos para a seção de contato */
+#contato {
+    background-color: #bf8c2e;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contato-texto h2 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.contato-texto p {
+    color: #fff;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-form input,
+.contato-form textarea,
+.contato-form button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.contato-form textarea {
+    resize: vertical;
+}
+
+.contato-form button {
+    width: 100px;
+    background-color: #fff;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Estilos para footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #bf8c2e;
+    padding: 15px 0 30px;
+    color: #f0f0f0;
+    font-size: 15px;
+}
+
+/* Estilos para a lista de entradas do formulário */
+#list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list li {
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para o botão de exclusão */
+button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilos para o campo de pesquisa */
+#searchField {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ODS {
+        padding: 20px;
+    }
+
+    .home h1 {
+        font-size: 24px;
+    }
+
+    .home h3 {
+        font-size: 16px;
+    }
+
+    .ODS12-content p {
+        font-size: 14px;
+    }
+
+    .ODS12-imagem img {
+        width: 100%;
+    }
+
+    .ODS12-content {
+        padding: 50px;
+    }
+
+    .ODS12-content h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .ODS12-content ul {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .sobre-content img {
+        text-align: center;
+        max-width: 300px;
+    }
+
+    .conteudo-home {
+        text-align: center;
+        width: 100%;
+    }
+
+    .linha {
+        width: 30%;
+        text-align: center;
+    }
+
+    .ODS12-content {
+        width: 100%;
+        padding: 0;
+    }
+
+    .contato-form {
+        padding: 0 50px;
+    }
+
+    .imagem-home {
+        display: none;
+    }
+
+    .footer {
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
